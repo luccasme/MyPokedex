@@ -1,0 +1,39 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+    
+}
+
+body {
+    height: 100vh;
+    background: url("/img/fundo2.jpg");
+    background-repeat: no-repeat, repeat-y;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background: linear-gradient(to top, #7f0000, #bd0003, #ff0000, #ff6c3e);
+    
+    
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+      max-width: 992px;
+      height: auto;
+      margin: 1rem auto;
+      border-radius: 1rem;
+    }
+  }
+
+  
+
+
