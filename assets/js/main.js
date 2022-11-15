@@ -59,6 +59,9 @@ LoadMoreButton.addEventListener('click' , () => {
     }
 })
 
+LoadLessItens.addEventListener('click' , () => {
+    location.reload()
+})
 
 
    
